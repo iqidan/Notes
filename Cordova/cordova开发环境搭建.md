@@ -22,7 +22,8 @@
 	exprot PATH=${PATH}:${GRADLE_HOME}/bin
 	
 	其中”export GRADLE_HOME=/Applications/Android\ Studio.app/Contents/gradle/gradle-3.2 
-	”的gradle版本号能会不同, 与Android Studio版本号有关.(注意"Android Studio.app"写成 "Android\ Studio.app", 对空格进行转义)
+	”的gradle版本号能会不同, 与Android Studio版本号有关.
+(**注意"Android Studio.app"写成 "Android\ Studio.app", 对空格进行转义**)
 ### 2. iOS
 	下载XCode,App Store下载安装即可(很省事)
 
