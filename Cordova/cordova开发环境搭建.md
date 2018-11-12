@@ -33,16 +33,21 @@
 	(有的需要root权限: sudo npm install -g cordova)
 ### 2.使用cordova (帮助: cordova -h)
 	创建项目,例如:cordova create myApp org.apache.cordova.myApp myApp
+	
 	添加平台,例如:
 		cordova platform add android
 		cordova platform add ios
+		
     添加插件,例如: cordova plugin add cordova-plugin-camera
+    
    	编译,例如:
    		cordova build //全部添加的平台进行编译
 		cordova build android //编译android平台
+		
 	运行,例如:
 		cordova run ios/andorid/broser
 		cordova run android -d //debug模式
+		
 	打包,直接使用相应平台的工具打包.Android使用Android Studio, iOS使用XCode
 
 参考文档:
