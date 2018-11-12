@@ -1,18 +1,22 @@
 # Cordova开发环境搭建
 
 ## 1. 安装Node环境
-	各个平台自行下载(推荐 http://nodejs.cn/download/)
+	各个平台自行下载(推荐 http://nodejs.cn/download/ )
+	
 	安装之后可以配置淘宝镜像地址: npm config set registry http://registry.npm.taobao.org/ (配置好后查看: npm get registry)
-	也可以直接下载: cnpm npm install -g cnpm
+	
+	也可以直接下载cnpm(使用cnpm): cnpm npm install -g cnpm
 
 ## 2. 开发平台搭建
 ### 1. Android
-	下载AndroidStudio并安装(推荐 http://www.android-studio.org/index.php/84-study/ 或 http://www.androiddevtools.cn )	
+	下载AndroidStudio并安装
+	(推荐 http://www.android-studio.org/index.php/84-study/ 或 http://www.androiddevtools.cn )	
 
 	安装完后,可能需要配置环境
 	打开终端: 
 	vi ~./bash_profile
 	输入内容:
+	
 	export ANDROID_HOME=/Users/iqidan/Library/Android/sdk
 	export GRADLE_HOME=/Applications/Android\ Studio.app/Contents/gradle/gradle-3.2 
 	exprot PATH=${PATH}:${GRADLE_HOME}/bin
@@ -22,7 +26,8 @@
 ### 2. iOS
 	下载XCode,App Store下载安装即可(很省事)
 
-## 3. 配置与使用cordova (官方文档 http://cordova.apache.org/docs/en/6.x/guide/cli/index.html)
+## 3. 配置与使用cordova 
+(官方文档 http://cordova.apache.org/docs/en/6.x/guide/cli/index.html )
 ###	1. 安装cordova 
 	npm install -g cordova / cnpm install -g cordova
 	(有的需要root权限: sudo npm install -g cordova)
@@ -41,7 +46,9 @@
 	打包,直接使用相应平台的工具打包.Android使用Android Studio, iOS使用XCode
 
 参考文档:
-cordova官方文档注意,开发app:http://cordova.apache.org/docs/en/6.x/guide/cli/index.html
+cordova官方文档注意,开发app: http://cordova.apache.org/docs/en/6.x/guide/cli/index.html
+
 支持插件平台情况: http://cordova.apache.org/docs/en/6.x/guide/support/index.html#core-plugin-apis
+
 cordova_CLI: http://cordova.apache.org/docs/en/6.x/reference/cordova-cli/index.html#cordova-create-command
     
