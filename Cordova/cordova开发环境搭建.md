@@ -52,6 +52,7 @@
 	打包,直接使用相应平台的工具打包.Android使用Android Studio, iOS使用XCode
 
 参考文档:
+
 cordova官方文档注意,开发app: http://cordova.apache.org/docs/en/6.x/guide/cli/index.html
 
 支持插件平台情况: http://cordova.apache.org/docs/en/6.x/guide/support/index.html#core-plugin-apis
