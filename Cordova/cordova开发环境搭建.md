@@ -47,7 +47,7 @@
 		cordova build android //编译android平台
 		
 	运行,例如:
-		cordova run ios/andorid/broser
+		cordova run ios/android/browser
 		cordova run android -d //debug模式
 		
 	打包,直接使用相应平台的工具打包.Android使用Android Studio, iOS使用XCode
