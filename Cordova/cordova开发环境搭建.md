@@ -32,7 +32,7 @@
 ###	1. 安装cordova 
 	npm install -g cordova / cnpm install -g cordova
 	(有的需要root权限: sudo npm install -g cordova)
-**windows版本的cordova发现需要降低版本，否则报错 安装6.0：cnpm install -g cordova@6.0.0 **
+(**注意windows版本的cordova发现需要降低版本，否则创建项目报错 安装6.0.0：cnpm install -g cordova@6.0.0**)
 ### 2.使用cordova (帮助: cordova -h)
 	创建项目,例如:cordova create myApp org.apache.cordova.myApp myApp
 	
