@@ -8,6 +8,11 @@
 	也可以直接下载cnpm(使用cnpm): npm install -g cnpm
 
 ## 2. 开发平台搭建
+**先配置JDK** 
+
+下载地址：https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+（推荐博客： https://blog.csdn.net/callmejeans/article/details/80696107）
 ### 1. Android
 	下载AndroidStudio并安装
 	(推荐 http://www.android-studio.org/index.php/84-study/ 或 http://www.androiddevtools.cn )	
@@ -26,7 +31,7 @@
 (**注意"Android Studio.app"写成 "Android\ Studio.app", 对空格进行转义**)
 ### 2. iOS
 	下载XCode,App Store下载安装即可(很省事)
-
+	
 ## 3. 配置与使用cordova 
 (官方文档 http://cordova.apache.org/docs/en/6.x/guide/cli/index.html )
 ###	1. 安装cordova 
