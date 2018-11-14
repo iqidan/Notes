@@ -5,7 +5,7 @@
 	
 	安装之后可以配置淘宝镜像地址: npm config set registry http://registry.npm.taobao.org/ (配置好后查看: npm get registry)
 	
-	也可以直接下载cnpm(使用cnpm): cnpm npm install -g cnpm
+	也可以直接下载cnpm(使用cnpm): npm install -g cnpm
 
 ## 2. 开发平台搭建
 ### 1. Android
@@ -32,6 +32,7 @@
 ###	1. 安装cordova 
 	npm install -g cordova / cnpm install -g cordova
 	(有的需要root权限: sudo npm install -g cordova)
+**windows版本的cordova发现需要降低版本，否则报错 安装6.0：cnpm install -g cordova@6.0.0 **
 ### 2.使用cordova (帮助: cordova -h)
 	创建项目,例如:cordova create myApp org.apache.cordova.myApp myApp
 	
