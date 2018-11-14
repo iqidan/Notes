@@ -12,7 +12,7 @@
 	下载AndroidStudio并安装
 	(推荐 http://www.android-studio.org/index.php/84-study/ 或 http://www.androiddevtools.cn )	
 
-	安装完后,可能需要配置环境
+	安装完后,可能需要配置环境（Mac OS）
 	打开终端: 
 	vi ~./bash_profile
 	输入内容:
