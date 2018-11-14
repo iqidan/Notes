@@ -12,7 +12,7 @@
 
 下载地址：https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-（推荐博客： https://blog.csdn.net/callmejeans/article/details/80696107）
+（推荐博客： https://blog.csdn.net/callmejeans/article/details/80696107 ）
 ### 1. Android
 	下载AndroidStudio并安装
 	(推荐 http://www.android-studio.org/index.php/84-study/ 或 http://www.androiddevtools.cn )	
