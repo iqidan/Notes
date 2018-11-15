@@ -11,9 +11,7 @@
 ## 3. transition-timing-function: 指定过渡动画缓动类型，有ease | linear | ease-in | ease-out | ease-in-out | cubic-bezier() | steps() | frames() | step-start | step-end 
 
 ( https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function )
-
 <img src="https://github.com/iqidan/Notes/blob/master/Images/transition-timing-function.jpg" style="width: 500px;">
-
 ### 1. linear: 线性过渡(匀速);
 
 ### 2. ease-in: 由慢到快;
