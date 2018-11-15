@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transition</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			border: 1px solid #ccc;
+			padding: 10px;
+			height: 50px;
+			width: 40%;
+			background-color: #486AAA;
+		}
+		.trans {
+		    transition-property: width;
+		    transition-duration: 3s;
+		    transition-delay: 0.2s;
+		}
+		.trans:hover {
+		    width: 90%;
+		    color: #fff;
+		}
+
+		div:nth-child(1){
+			transition-timing-function: ease;
+		}
+		div:nth-child(2){
+			transition-timing-function: ease-in;
+		}
+		div:nth-child(3){
+			transition-timing-function: ease-out;
+		}
+		div:nth-child(4){
+			transition-timing-function: ease-in-out;
+		}
+		div:nth-child(5){
+			transition-timing-function: linear;
+		}
+		div:nth-child(6){
+			transition-timing-function: cubic-bezier(.35,.35,.57,.57);
+		}
+		div:nth-child(7){
+			transition-timing-function: steps(10, start);
+		}
+		div:nth-child(8){
+			transition-timing-function: frames(10);
+		}
+		div:nth-child(9){
+			transition-timing-function: step-start;
+		}
+		div:nth-child(10){
+			transition-timing-function: step-end;
+		}
+	</style>
+</head>
+<body>
+	<div class="trans">
+		1 移动到我这里~ease
+	</div>
+	<div class="trans">
+		2 移动到我这里~ease-in
+	</div>
+	<div class="trans">
+		3 移动到我这里~ease-out
+	</div>
+	<div class="trans">
+		4 移动到我这里~ease-in-out
+	</div>
+	<div class="trans">
+		5 移动到我这里~liner
+	</div>
+	<div class="trans">
+		6 移动到我这里~cubic-bezier(.35,.35,.57,.57)
+	</div>
+	<div class="trans">
+		7 移动到我这里~steps(10, start)
+	</div>
+	<div class="trans">
+		8 移动到我这里~frames(10) 支持不是太好! 测试Safari可以
+	</div>
+	<div class="trans">
+		9 移动到我这里~step-start
+	</div>
+	<div class="trans">
+		10 移动到我这里~step-end
+	</div>
+</body>
+</html>
