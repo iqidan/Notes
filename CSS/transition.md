@@ -35,7 +35,7 @@
 6. steps(num, direction): 过渡分割成段执行 num:分段数量 direction:start(每段过渡开始时刻就执行到最终状态)|end(每个过渡结束时刻执行到最终状态)
 	(https://segmentfault.com/a/1190000007042048)
 
-7. frames(num): 貌似支持不是很好,与steps很相似
+7. frames(num): 貌似支持不是很好,与steps很相似（目前本机测试只有safari支持 版本 12.0 (14606.1.36.1.9)）
 
 8. step-start: 每段过渡开始时刻就执行到最终状态, 相当于steps(1, start)
 
