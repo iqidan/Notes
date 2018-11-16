@@ -10,15 +10,16 @@
 
 ( https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function )
 <img src="https://github.com/iqidan/Notes/blob/master/Images/transition-timing-function.jpg" style="width: 500px;">
-### 1. linear: 线性过渡(匀速);
+	
+1. linear: 线性过渡(匀速);
 
-### 2. ease-in: 由慢到快;
+2. ease-in: 由慢到快;
 
-### 3. ease-out: 由快到慢;
+3. ease-out: 由快到慢;
 
-### 4. ease-in-out: 由慢到快在到慢;
+4. ease-in-out: 由慢到快在到慢;
 
-### 5. cubic-bezier(x1, y1, x2, y2): 三次贝塞尔曲线动画,可以自定义动画快慢效果(最多变换三次速度) 
+5. cubic-bezier(x1, y1, x2, y2): 三次贝塞尔曲线动画,可以自定义动画快慢效果(最多变换三次速度) 
 	先慢后块 cubic-bezier(.54,.16,.81,.31) 
 	先快后慢cubic-bezier(.2,.58,.37,.79) 
 	匀速 cubic-bezier(.35,.35,.57,.57) 
@@ -30,14 +31,14 @@
 赛贝尔曲线介绍与原理: https://baike.baidu.com/item/贝塞尔曲线/1091769?fr=aladdin
 ) 
 
-### 6. steps(num, direction): 过渡分割成段执行 num:分段数量 direction:start(每段过渡开始时刻就执行到最终状态)|end(每个过渡结束时刻执行到最终状态)
-(https://segmentfault.com/a/1190000007042048)
+6. steps(num, direction): 过渡分割成段执行 num:分段数量 direction:start(每段过渡开始时刻就执行到最终状态)|end(每个过渡结束时刻执行到最终状态)
+	(https://segmentfault.com/a/1190000007042048)
 
-### 7. frames(num): 貌似支持不是很好,与steps很相似
+7. frames(num): 貌似支持不是很好,与steps很相似
 
-### 8. step-start: 每段过渡开始时刻就执行到最终状态, 相当于steps(1, start)
+8. step-start: 每段过渡开始时刻就执行到最终状态, 相当于steps(1, start)
 
-### 9. step-end: 每个过渡结束时刻执行到最终状态, 相当于steps(1, end)
+9. step-end: 每个过渡结束时刻执行到最终状态, 相当于steps(1, end)
 
 ## 4. transition-delay 延迟过渡时间 s/ms
 
