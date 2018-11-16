@@ -23,6 +23,7 @@
 	先慢后块 cubic-bezier(.54,.16,.81,.31) 
 	先快后慢cubic-bezier(.2,.58,.37,.79) 
 	匀速 cubic-bezier(.35,.35,.57,.57) 
+
 (
 三次赛贝尔曲线介绍: https://blog.csdn.net/hsany330/article/details/73609083
 
