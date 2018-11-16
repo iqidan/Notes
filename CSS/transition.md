@@ -1,10 +1,8 @@
 # 过渡 transition: transition-property transition-duration transition-timing-function transition-delay;
 
-测试代码地址：https://github.com/iqidan/Notes/blob/master/CSS/Codes/transition.html
-
 ( https://developer.mozilla.org/en-US/docs/Web/CSS/transition )
 
-## 1. transition-property: 指定过渡的属性值，比如transition-property:opacity就是只指定background-color属性参与这个过渡。
+## 1. transition-property: 指定过渡的属性值，比如 "transition-property:width;" 就是只指定width属性参与这个过渡。
 
 ## 2. transition-duration: 指定这个过渡的持续时间 s/ms
 
@@ -42,3 +40,5 @@
 ### 9. step-end: 每个过渡结束时刻执行到最终状态, 相当于steps(1, end)
 
 ## 4. transition-delay 延迟过渡时间 s/ms
+
+测试代码：https://github.com/iqidan/Notes/blob/master/CSS/Codes/transition.html
