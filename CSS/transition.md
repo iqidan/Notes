@@ -1,4 +1,5 @@
-# 过渡 transition: transition-property transition-duration transition-timing-function transition-delay;
+# transition 可以为一个元素在不同状态之间切换的时候定义不同的过渡效果, 是一个简写属性:
+transition: transition-property transition-duration transition-timing-function transition-delay;
 
 ( https://developer.mozilla.org/en-US/docs/Web/CSS/transition )
 
