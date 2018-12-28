@@ -25,11 +25,15 @@
 	
 	export ANDROID_HOME=/Users/iqidan/Library/Android/sdk
 	export GRADLE_HOME=/Applications/Android\ Studio.app/Contents/gradle/gradle-3.2 
-	exprot PATH=${PATH}:${GRADLE_HOME}/bin
+	export PATH=${PATH}:${GRADLE_HOME}/bin
 	
 	其中”export GRADLE_HOME=/Applications/Android\ Studio.app/Contents/gradle/gradle-3.2 
 	”的gradle版本号能会不同, 与Android Studio版本号有关.
+
 (**注意"Android Studio.app"写成 "Android\ Studio.app", 对空格进行转义**)
+
+	保存关闭,输入source .bash_profile,更新刚配置的环境变量
+
 ### 2. iOS
 	下载XCode,App Store下载安装即可(很省事)
 	
