@@ -18,8 +18,8 @@
     baison测试
     cordova plugin add cordova-plugin-baidumaplocation --variable ANDROID_KEY="9UxdHhIWi7hBnvjpo2gVsq1oDtCSlM1f" --variable IOS_KEY="IkKALIeh077oIH2Q4MPrL88UMsxbcEGE"
     
-~cordova plugin rm cordova-plugin-baidumaplocation --variable ANDROID_KEY="9UxdHhIWi7hBnvjpo2gVsq1oDtCSlM1f" --variable IOS_KEY="IkKALIeh077oIH2Q4MPrL88UMsxbcEGE"
-~
+~~cordova plugin rm cordova-plugin-baidumaplocation --variable ANDROID_KEY="9UxdHhIWi7hBnvjpo2gVsq1oDtCSlM1f" --variable IOS_KEY="IkKALIeh077oIH2Q4MPrL88UMsxbcEGE"~~
+    
     (Android安装后有问题
     切换到Project=>
     1 找到app/BaiduLBS_Android.jar 选中右击 选中"add as library"
@@ -54,9 +54,8 @@
     =>
     var targetDir  = path.join(projectRoot, "platforms", "android", "app", "src", "main", "java", packageName.replace(/\./g, path.sep), "wxapi");
 
-~修改CordovaLib/src/org/apache/cordova/cordovaPlugin.java
-    protected CordovaPreferences preferences; => protected static CordovaPreferences preferences;
-~
+~~修改CordovaLib/src/org/apache/cordova/cordovaPlugin.java
+    protected CordovaPreferences preferences; => protected static CordovaPreferences preferences;~~
 
     获取签名
     cd ~/.android 
