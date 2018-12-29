@@ -4,7 +4,7 @@
 	各个平台自行下载(推荐 http://nodejs.cn/download/ )
 
 ~~安装之后可以配置淘宝镜像地址: npm config set registry http://registry.npm.taobao.org/ 
-	(配置好后查看: npm get registry 默认值：https://registry.npmjs.org/)~ 修改npm资源地址后，发现后续使用cordova有问题，请直接安装cnpm
+	(配置好后查看: npm get registry 默认值：https://registry.npmjs.org/)~ 修改npm资源地址后，发现后续使用cordova有问题，请直接安装cnpm~~
 	
 	也可以直接下载cnpm(使用cnpm): npm install -g cnpm
 
