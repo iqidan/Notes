@@ -37,8 +37,6 @@
 ### 三. 微信登录 微信支付:
     baison测试
     cordova plugin add cordova-plugin-wechat@2.0 --variable wechatappid=wx9356a8307bdc324f
-    cordova plugin add cordova-plugin-wechat --variable wechatappid=wx9356a8307bdc324f
-    cordova plugin rm cordova-plugin-wechat
     (iOS
     linker command failed with exit code 1
     解决办法: 打开xcode -> 打开项目 -> General -> Link Binary With Libraries
@@ -50,9 +48,14 @@
     本程序 scr/org/baison/chowtscordova/wxapi => app/src/main/java/org/baison/chowtscordova/
 
     修改plugins/cordova-plugin-wechat/scripts/android-install.js中
+```javascript
     var targetDir  = path.join(projectRoot, "platforms", "android", "src", packageName.replace(/\./g, path.sep), "wxapi");
+```
     =>
-    var targetDir  = path.join(projectRoot, "platforms", "android", "app", "src", "main", "java", packageName.replace(/\./g, path.sep), "wxapi");
+```javascript
+    var targetDir  = path.join(projectRoot, "platforms", "android", "app", "src", "main", "java", packageName.replace(/\./g,    path.sep), "wxapi");
+```
+ 
 
 ~~修改CordovaLib/src/org/apache/cordova/cordovaPlugin.java
     protected CordovaPreferences preferences; => protected static CordovaPreferences preferences;~~
