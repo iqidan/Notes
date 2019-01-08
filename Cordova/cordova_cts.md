@@ -92,6 +92,8 @@
     cordova plugin add cordova-plugin-vibration
 
 
+### 六. 设备信息(iOS Android)
+    cordova plugin add cordova-plugin-device
 
 支付
 https://github.com/DmcSDK/cordova.plugin.alipay
