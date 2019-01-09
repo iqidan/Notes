@@ -91,9 +91,11 @@
 ### 五. 震动:
     cordova plugin add cordova-plugin-vibration
 
-
 ### 六. 设备信息(iOS Android)
     cordova plugin add cordova-plugin-device
+    
+### 七. 剪贴板功能
+    cordova plugin add cordova-clipboard
 
 支付
 https://github.com/DmcSDK/cordova.plugin.alipay
