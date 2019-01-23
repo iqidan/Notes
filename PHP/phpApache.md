@@ -3,7 +3,7 @@
 	https://blog.csdn.net/cgema/article/details/72457985
 	httpd.conf配置文件详解：https://www.cnblogs.com/cqmy/p/6208656.html
 	
-## 1. Apache服务配置 
+## 一. Apache服务配置 
 	(Server version: Apache/2.4.34 (Unix)
 	Server built:   Aug 17 2018 16:29:43)
 ### 1. 基本服务开启关闭
@@ -16,7 +16,7 @@
 	其中“DocumentRoot”（默认值“/Library/WebServer/Documents”）配置默认访问的位置
 	LoadModule用来控制模块加载的
 
-## 1. 使用gizp功能,同时使其能够缓存
+## 二. 使用gizp功能,同时使其能够缓存
 	参考:
 	启用gzip压缩: https://blog.csdn.net/a757571354/article/details/80362840
 	启用gzip导致不能缓存问题解决: https://www.cnblogs.com/baiban/p/5167530.html
@@ -27,7 +27,7 @@
 	LoadModule deflate_module modules/mod_deflate.so
 	LoadModule filter_module modules/mod_filter.so
 
-	添加
+	添加:
 ```config
 <IfModule mod_deflate.c>
 DeflateCompressionLevel 6
@@ -58,11 +58,11 @@ SetEnvIfNoCase Request_URI .(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
 SetEnvIfNoCase Request_URI .(?:pdf|doc)$ no-gzip dont-vary
 </IfModule>
 ```
-### 2. 解决gizp压缩
+### 2. 解决gizp压缩导致的不可缓存问题
 	前面的注释"#"去掉
 	LoadModule headers_module libexec/apache2/mod_headers.so
 
-	添加
+	添加:
 ```config
 <IfModule mod_headers.c>
 #使用gizp导致不能够缓存 解决方法
