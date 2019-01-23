@@ -1,9 +1,8 @@
-# PHP的Apache环境搭建(Mac) 
-	基本环境搭建：
-	https://blog.csdn.net/cgema/article/details/72457985
+# PHP的Apache环境配置(Mac) 
+	基本环境搭建：https://blog.csdn.net/cgema/article/details/72457985
 	httpd.conf配置文件详解：https://www.cnblogs.com/cqmy/p/6208656.html
 	
-## 一. Apache服务配置 
+## 一. Apache服务操作配置
 	(Server version: Apache/2.4.34 (Unix)
 	Server built:   Aug 17 2018 16:29:43)
 ### 1. 基本服务开启关闭
