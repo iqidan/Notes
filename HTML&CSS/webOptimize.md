@@ -105,13 +105,12 @@
 ##9. 精简脚本文件
 	对JS和CSS文件进行精简, (对JS可以进行混淆精简,但是可能会带来问题,而且混淆精简和普通精简效果差不多)
 
-
 ##10. 避免使用重定向
 	重定向特别影响性能,增加请求次数
 	url结尾少了"/",容易导致重定向"301",URL结尾记得添加"/"(主机名后面确实"/"不会出现重定向, 例如:https://www.baidu.com )
 
 ##11. 避免加载重复的脚步
-	加载重复的脚步导致多次执行而影响性能(可能需要多次请求
+	加载重复的脚步导致多次执行而影响性能(可能需要多次请求)
 
 ##12. 配置或者移除ETag
 	ETAG(Entity Tag)是web服务器和浏览器确认缓存组件有效性的一种机制. 标示服务器上一个组件特定版本的唯一标识. 减少相应的字段. 单台服务器的话推荐,但是集群服务器的话由于不同服务器完全相同的组件的ETAG也不同,因此反而导致不使用原本正确的缓存组件, 这时候比较时候去除ETag比较好,只使用修改时间校验(if-modified-since).
@@ -120,7 +119,21 @@
 	web前端想办法优化DOM布局(CSS) (个人:目前市场上很多以web形式开发的客户端应用 JS这块也是相当重要)
 
 
+##14. 异步加载js
+	首页延时加载执行js,提升体验, 开始加载必要的js,后续通过js操作dom动态添加script标签,防止某些操作是需要js方法,可以先定义stub函数(同名空函数),防止未下载完需要的js就点击相应操作发生未定义标识符错误.
+```javascript
+	var domScript = document.createElement("script");
+	domScript.src = "script.js";
+	document.getElementsByTagName("head")[0].appendChild(domScript);
+```
+	
+	script标签中使用defer和async(https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)(注意是引入外部脚本)
+	defer：用于开启新的线程下载脚本文件，并使脚本在文档解析完成后(DOMContentLoaded事件前)执行。(现在很多浏览器默认就是并行下载js脚本了)
+	async：HTML5新增属性，用于异步下载脚本文件，下载完毕立即解释执行代码。
 
+	如果 async="async"：脚本相对于页面的其余部分异步地执行（当页面继续进行解析时，脚本将被执行）
+	如果不使用 async 且 defer="defer"：脚本将在页面完成解析时执行
+	如果既不使用 async 也不使用 defer：在浏览器继续解析页面之前，立即读取并执行脚本
 
 
 
