@@ -20,7 +20,7 @@
 
 	安装完后,可能需要配置环境（Mac OS）
 	打开终端: 
-	vi ~./bash_profile
+	vi ~/.bash_profile
 	输入内容:
 	
 	export ANDROID_HOME=/Users/iqidan/Library/Android/sdk
@@ -61,6 +61,7 @@
 		cordova run android -d //debug模式
 		
 	打包,直接使用相应平台的工具打包.Android使用Android Studio, iOS使用XCode
+(**注意 编译android可能出现".../bin/gradle: Command failed with exit code EACCES"错误, 这个是gradle执行权限有问题,添加权限 sudo chmod 777 "/Applications/Android Studio.app/Contents/gradle/gradle-3.2/bin/gradle"**)
 
 参考文档:
 
