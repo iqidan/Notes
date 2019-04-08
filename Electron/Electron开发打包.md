@@ -4,10 +4,7 @@
 (nodejs/python的安装 环境变量一定要配置好,尤其是Python的环境!! 配置环境路径的方法: http://jingyan.baidu.com/article/d5a880eb6aca7213f047cc6c.html  简单验证是否全局安装并配置好了: nodejs=>node -v出来版本即可,  Python=>python -h 是否出来帮助提示)
 
 ### 1)NodeJS环境安装:https://nodejs.org/download/release/
-~~(注意:C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.c
-	文件中的”PfnDliHook __pfnDliNotifyHook2 = load_exe_hook;”注释掉, 否则报重复定义错误)
-
-~~
+~~(注意:C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.c文件中的”PfnDliHook __pfnDliNotifyHook2 = load_exe_hook;”注释掉, 否则报重复定义错误)~~
 
 ### 2)Python安装(建议安装2.7.x, 不要安装3.x.x以及以上版本): https://www.python.org/downloads/windows/
 
