@@ -17,7 +17,7 @@
 
 
 ## 二.开发
-### 1)搭建项目,初始化项目(根据具提示来填写相关信息)
+### 1)搭建项目,初始化项目(根据提示来填写相关信息)
 	npm init
 
 ### 3)添加Electron依赖
@@ -42,7 +42,7 @@
 	mac打包成dmg:electron-installer-dmg  https://github.com/electron-userland/electron-installer-dmg
 	例如electron-installer-dmg ./iPos+-darwin-x64/ iPOs+ --icon=/Users/iqidan/Node/iPOS+/images/ipos.icns
 
-## 四.下载Resource Hacker(http://www.angusj.com/resourcehacker/) 网上有破解版, 
+## 四.下载Resource Hacker(http://www.angusj.com/resourcehacker/) 
 	此软件可修改exe文件中的默认配置(包括图标替换. 安装的程序的运行时名称等等  注意: 此修改在打包后的exe文件上修改, 在打包成安装文件之前)
 	备注:
 	文件安装的路径最外层名字如:iPOS 是由程序的package.json文件的name字段控制;
