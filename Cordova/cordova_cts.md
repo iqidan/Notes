@@ -105,16 +105,6 @@ https://github.com/iVanPan/Cordova_QQ
 https://github.com/xu-li/cordova-plugin-wechat
 https://github.com/iVanPan/cordova_weibo
 
-测试
-微信
-APPID: wx9356a8307bdc324f
-支付宝
-PID 2088621216989725
-
-正式
-微信支付appid： wx231d8992bdf83bca
-支付宝支付appid：2017042606981399
-PID: 2088621903905199
 
 
 
