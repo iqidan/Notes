@@ -47,3 +47,4 @@
 	备注:
 	文件安装的路径最外层名字如:iPOS 是由程序的package.json文件的name字段控制;
 	快捷键是有运行的exe文件的productname决定的(用Resource hacker 打开修改)
+electron-packager ./ iPosOnline --platform=win32 --arch=x64
