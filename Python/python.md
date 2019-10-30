@@ -1,7 +1,7 @@
 # Python
-	官网: https://docs.python.org/3/
-	中文社区: http://www.python88.com/tutorial
-	廖雪峰: https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000
+[官网](https://docs.python.org/3/) 
+[中文社区](http://www.python88.com/tutorial) 
+[廖雪峰](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000) 
 
 ## 常用命令
 ```python
