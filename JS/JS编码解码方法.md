@@ -5,13 +5,13 @@
 
 ## 2 encodeURI/decodeURI
 	对所有Unicode符号编码, 
-**仅仅对URI的参数部分进行编码
+**仅仅对URI的参数部分进行编码<br>
  	对整个URI编码使用**
 
 
 ## 3 encodeURIComponent/decodeURIComponent
 	对所有Unicode符号编码
-**整个URI编码
+**整个URI编码<br>
 	参数部分使用**
 
 ## 4 例子
@@ -28,8 +28,8 @@ encodeURIComponent(str)
 ```
 
 ## 5 参考
-[1 escape MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/escape)
-[2 encodeURI MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/encodeURI)
-[3 encodeURIComponent MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)
+[1 escape MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/escape)<br>
+[2 encodeURI MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/encodeURI)<br>
+[3 encodeURIComponent MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)<br>
 
 
