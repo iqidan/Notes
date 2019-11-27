@@ -15,11 +15,11 @@
 
 ## 添加插件:
 ### 一. 百度定位:
-    cordova plugin add cordova-plugin-baidumaplocation --variable ANDROID_KEY="YOUR_KEY" --variable IOS_KEY="SLhql9GChsPhZb7BZHNPSAxskqYN5aG3" 
+    cordova plugin add cordova-plugin-baidumaplocation --variable ANDROID_KEY="YOUR_KEY" --variable IOS_KEY="YOUR_PID" 
     
 
     baison测试
-    cordova plugin add cordova-plugin-baidumaplocation --variable ANDROID_KEY="YOUR_KEY" --variable IOS_KEY="IkKALIeh077oIH2Q4MPrL88UMsxbcEGE"
+    cordova plugin add cordova-plugin-baidumaplocation --variable ANDROID_KEY="YOUR_KEY" --variable IOS_KEY="YOUR_PID"
     
     (Android安装后有问题
     切换到Project=>
