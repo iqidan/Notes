@@ -15,11 +15,11 @@
 
 ## 添加插件:
 ### 一. 百度定位:
-    cordova plugin add cordova-plugin-baidumaplocation --variable ANDROID_KEY="T6YZCcfGWXy6l0Tl4NGFhmsKOCA7SNCA" --variable IOS_KEY="SLhql9GChsPhZb7BZHNPSAxskqYN5aG3" 
+    cordova plugin add cordova-plugin-baidumaplocation --variable ANDROID_KEY="YOUR_KEY" --variable IOS_KEY="SLhql9GChsPhZb7BZHNPSAxskqYN5aG3" 
     
 
     baison测试
-    cordova plugin add cordova-plugin-baidumaplocation --variable ANDROID_KEY="9UxdHhIWi7hBnvjpo2gVsq1oDtCSlM1f" --variable IOS_KEY="IkKALIeh077oIH2Q4MPrL88UMsxbcEGE"
+    cordova plugin add cordova-plugin-baidumaplocation --variable ANDROID_KEY="YOUR_KEY" --variable IOS_KEY="IkKALIeh077oIH2Q4MPrL88UMsxbcEGE"
     
     (Android安装后有问题
     切换到Project=>
@@ -30,11 +30,11 @@
     )
 
 ### 二. 支付宝:
-    cordova plugin add https://github.com/DmcSDK/cordova.plugin.alipay.git --variable PID=2088621903905199
+    cordova plugin add https://github.com/DmcSDK/cordova.plugin.alipay.git --variable PID=YOUR_PID
 
 
     baison测试 
-    cordova plugin add https://github.com/DmcSDK/cordova.plugin.alipay.git --variable PID=2088621216989725
+    cordova plugin add https://github.com/DmcSDK/cordova.plugin.alipay.git --variable PID=YOUR_PID
     
     (Android 
     切换到Project=>
@@ -42,10 +42,10 @@
     )
 
 ### 三. 微信登录 微信支付:
-    cordova plugin add cordova-plugin-wechat --variable wechatappid=wx231d8992bdf83bca
+    cordova plugin add cordova-plugin-wechat --variable wechatappid=YOUR_PID
 
     baison测试
-    cordova plugin add cordova-plugin-wechat --variable wechatappid=wx9356a8307bdc324f
+    cordova plugin add cordova-plugin-wechat --variable wechatappid=YOUR_PID
 
     (iOS
     linker command failed with exit code 1
