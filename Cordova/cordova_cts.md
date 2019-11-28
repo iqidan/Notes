@@ -78,7 +78,7 @@
     签名错误了后面修改请参照进行操作: https://blog.csdn.net/KisenHuang/article/details/73770863
 
     正式:
-    keytool -list -v -keystore /Users/iqidan/Desktop/p12/android/cts/cts.keystore -alias chowtaiseng -storepass CTs1213141516 -keypass CTs1213141516
+    keytool -list -v -keystore /Users/iqidan/Desktop/p12/android/cts/cts.keystore -alias chowtaiseng -storepass CTs1213141516 -keypass YOUR_KEYPASS
     )
 
 
