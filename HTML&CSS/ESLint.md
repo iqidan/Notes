@@ -381,5 +381,5 @@ module.exports = {
 ```
 
 ## 3.参考
-1.[ESLint](https://eslint.org/docs/user-guide/configuring)
-2.[ESLint设置 semi 分号/定义变量未使用规则 简书](https://www.jianshu.com/p/a4c4c6a38bcb)
+1. [ESLint](https://eslint.org/docs/user-guide/configuring)
+2. [ESLint设置 semi 分号/定义变量未使用规则 简书](https://www.jianshu.com/p/a4c4c6a38bcb)
