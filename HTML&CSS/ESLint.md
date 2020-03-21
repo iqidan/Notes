@@ -8,7 +8,7 @@
 ### 2.初始化(根据提示进行配置)
 	npx eslint --init
 
-	执行命令后自动生成".eslintrc.\*"文件, 例如.eslintrc.json .eslintrc.js 等等
+	执行命令后自动生成".eslintrc.*"文件, 例如.eslintrc.json .eslintrc.js 等等
 ```javascript
 module.exports = {
     "env": {
