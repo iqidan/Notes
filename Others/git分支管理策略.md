@@ -1,5 +1,5 @@
-# git多人合作
-    使用主分支Master与开发分支Develop模式遇到的问题以及建议.
+# git分支管理策略
+    使用主分支(Master)与开发分支(Develop)分支策略遇到的问题以及建议.
 ## 问题
 1. 发版前需要封版测试, 修复bug而不能提交新需求, 有的新需求做了一半不能提交, 可能还和其他同学修改bug文件有冲突.
 
@@ -14,25 +14,33 @@
 ##建议
 1. **管理者只维护Master和Develop分支**.
 
-2. **每个开发都建立自己的临时开发分支**, 一般都是从Develop分支切出来, 开发自己维护, 无需管理者干预.
+2. **每个开发都建立自己的临时开发分支**, 一般都是从Develop分支切出来, 开发自己维护, 无需管理者干预, 无用的时候删除.
 
 3. **对于大的功能, 改动文件较多也单独切临时分支**, 开发完成提交临时分支, 测试同学在这个临时分支测试通过再合并到Develop分支.
 
 4. 开发同学在每次修改临时开发分支代码前, **首先合并Develop分支到临时分支**, 合并临时分支到Develop分支前也需要 **先合并Develop分支到临时分支, 冲突都在临时分支上解决后并验证没问题再合并到Develop!**
 
-<img src="https://github.com/iqidan/Notes/blob/master/Images/git-cooperation.png" style="width: 500px;">
+<img src="https://github.com/iqidan/Notes/blob/master/Images/git-cooperation.png" style="width: 800px;">
 
 ## 多临时分支利弊
 1. 利: 解决上述发现的问题, 比如新需求进行一半有紧急bug需要修复, 而且涉及同一文件, 可以直接提交未完成的代码到自己的临时分支, 然后切换为Develop修复紧急bug.
 
-2. 弊: 操作步骤多了些(多了临时分支和Develop的合并操作)以及多占用些云端服务器磁盘内存.
+2. 弊: 操作步骤多了些(临时分支和Develop的频繁合并操作)以及稍微浪费点磁盘空间(git的新建分支只是一个指针节点指向, 并非真正的物理复制一整份仓库代码)
+
+
+## 其他的分支管理策略
+除了Master和Develop分支, 只创建特定的临时分支(功能（feature）/ 预发布（release）/ 修补bug（fixbug）), 具体请参考[Git常用命令及方法大全 & Git分支管理策略](https://www.cnblogs.com/miracle77hp/articles/11163532.html), 也可以结合使用.
 
 ## git界面操作软件推荐
 [SourceTree](https://www.sourcetreeapp.com/) 超级方便 
 
 ## 推荐学习
 1. [图解GIT](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
+
 2. [GIT DOCUMENT](https://book.git-scm.com/docs/git)
+
 3. [Think Like (a) Git](http://think-like-a-git.net/)
+
 4. [GIT & SVN](https://www.cnblogs.com/Sungeek/p/9152223.html)
-5. [Git常用命令及方法大全](https://www.cnblogs.com/miracle77hp/articles/11163532.html)
+
+5. [Git常用命令及方法大全 & Git分支管理策略](https://www.cnblogs.com/miracle77hp/articles/11163532.html)
