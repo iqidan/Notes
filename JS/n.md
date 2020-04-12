@@ -1,5 +1,5 @@
 # Nodejs版本管理工具 [n](https://www.npmjs.com/package/n)
-	(不支持Windows)
+	
 
 ## 1. 安装n
 ```
@@ -14,3 +14,7 @@
 	n stable                       安装最新稳定版Node
 	n lts                          安装最新长期维护版(lts)Node
 	n <version>                    根据提供的版本号安装Node
+
+## 注意
+* n不支持Windows windows建议使用[nvm-windows](https://github.com/coreybutler/nvm-windows/releases)
+* nvm使用请参考[Windows 下多版本 NodeJS 安装和管理](https://www.jianshu.com/p/128f52787f48)
