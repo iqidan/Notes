@@ -21,6 +21,7 @@
 		[command]
 
 	简单登录: ssh root@47.101.222.255
+	加端口: ssh -p 8888 root@192.168.25.137    
 
 ## 3 查看网络相关信息[Netstat](https://baike.baidu.com/item/Netstat/527020?fr=aladdin)
 ### netstat([参考](https://www.cnblogs.com/ftl1012/p/netstat.html))
