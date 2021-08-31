@@ -72,6 +72,6 @@ Header edit "ETag" "^(.*)-gzip(.*)$" "$1$2"
 </IfModule>
 ```
 
-
-
-查看php信息 phpinfo(); 
+## 备注
+1. 查看php信息 phpinfo(); 
+2. mac 本地php配置文件路径/private/etc(没有的话复制php.ini.default为php.ini)
