@@ -21,7 +21,7 @@
 	npm init
 
 ### 3)添加Electron依赖
-	npm install Eletron --save-dev
+	npm install electron --save-dev
 
 
 ## 三.打包
