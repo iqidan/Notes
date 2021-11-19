@@ -6,8 +6,8 @@
 	         [-l limit] [-o ssh_option] [-P port] [-S program] source ... target
 	scp [参数] <源地址（用户名@IP地址或主机名）>:<文件路径> <目的地址（用户名 @IP 地址或主机名）>:<文件路径>
 
-	例如 将服务器47.101.222.255的/home/baison/tensorflow/bazel-bin/tensorflow/examples/android/tensorflow_demo.apk文件拷贝到本地/Users/iqidan/tensorflow/tensorflow_test文件夹下 
-	scp root@47.101.222.255:/home/baison/tensorflow/bazel-bin/tensorflow/examples/android/tensorflow_demo.apk /Users/iqidan/tensorflow/tensorflow_test 
+	例如 将服务器47.101.222.255的/home/tensorflow/bazel-bin/tensorflow/examples/android/tensorflow_demo.apk文件拷贝到本地/Users/iqidan/tensorflow/tensorflow_test文件夹下 
+	scp root@47.101.222.255:/home/tensorflow/bazel-bin/tensorflow/examples/android/tensorflow_demo.apk /Users/iqidan/tensorflow/tensorflow_test 
 
 ## 2 远程连接
 ### ssh([参考](https://www.cnblogs.com/ftl1012/p/ssh.html))
